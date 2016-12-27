@@ -4,13 +4,13 @@
 Using LIFI to Transfer Audio Data and Playing it on A Buzzer. This can all be achieved using an Arduino. The purpose is to prove that LIFI can be used to transfer useful information in an efficient way. This information can be used to play music using a buzzer. Since only one Arduino is used, the receiver and the transmitter will be mimicked. It doesn't resemble a realistic transmitter and receiver because there will be no synchronization. Although this is the case, the code is written in a way that allows for this type of expansion and have a common period for serial transmission. 
 
 ### LIFI Transmission
-To learn more about the transmission algorithm, read : 
+To learn more about the transmission algorithm, read : https://github.com/AkilaJay/LifiDataTransfer/blob/master/README.md
 At optimal conditions, I was able to achieve transfer rates of over 3000 bits/second using one LED. 
 ### Items Needed
 
 * Arduino Uno
 * LDR (photoresistor)
-* 100 ohm resistor
+* 1 kilo-ohm resistor
 * 200 ohm resistor
 * LED
 * Piezo buzzer
